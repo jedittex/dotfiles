@@ -13,6 +13,7 @@ brew 'httpie'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'midnight-commander'
+brew 'ncdu'
 brew 'tldr'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
