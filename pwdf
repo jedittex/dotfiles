@@ -1,0 +1,32 @@
+#!/usr/bin/osascript
+
+on run arguments
+	tell application "Finder"
+		-- no argument: get frontmost window or desktop
+		if (count of arguments) is 0 then
+			if (count of windows) is 0 then
+				set dir to (desktop as alias)
+			else
+				set dir to ((target of Finder window 1) as alias)
+			end if
+		else
+			if first item of arguments is in {"all", "-a", "-all", "--all"} then
+				-- list all Finder windows
+				copy target of every Finder window to theList
+				repeat with w in theList
+					log POSIX path of (w as alias)
+				end repeat
+				return
+			end if
+			-- see if there is a window matching the name
+			set t to arguments as text
+			set wins to every Finder window where name contains t
+			if (count of wins) > 0 then
+				set dir to ((target of item 1 of wins) as alias)
+			else
+				return
+			end if
+		end if
+		return POSIX path of dir
+	end tell
+end run
