@@ -4,6 +4,7 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
+brew 'alt-tab'
 brew 'awscli'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
