@@ -101,6 +101,17 @@ setopt CORRECT_ALL
 setopt NO_CASE_GLOB
 setopt AUTO_CD
 
+# Promt 
+PROMPT='%(?.√.?%?) %B%F{green}%2~%f%b %(!.#.>) '
+# Promt Right part with git info
+autoload -Uz vcs_info
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+RPROMPT=\$vcs_info_msg_0_
+zstyle ':vcs_info:git:*' formats '%F{240}(%b)%r%f'
+zstyle ':vcs_info:*' enable git
+
 fpath+=$DOTFILES/zshfunctions
 
 source $DOTFILES/aliases
