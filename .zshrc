@@ -102,7 +102,7 @@ setopt NO_CASE_GLOB
 setopt AUTO_CD
 
 # Promt 
-PROMPT='%(?.√.?%?) %B%F{green}%2~%f%b %(!.#.>) '
+PROMPT='%(?.√.%F{red}?%?) %B%F{green}%2~%f%b %(!.#.>) '
 # Promt Right part with git info
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
