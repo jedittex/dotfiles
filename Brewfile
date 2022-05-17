@@ -22,6 +22,7 @@ brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 brew 's3cmd'
 brew 'whalebrew' # Whalebrew creates aliases for Docker images so you can run them as if they were native commands. It's like Homebrew, but with Docker images.
+brew 'wget'
 brew 'youtube-dl'
 
 # Apps
