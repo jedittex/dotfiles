@@ -13,6 +13,7 @@ brew 'grep'
 brew 'ffmpeg'
 brew 'htop'
 brew 'httpie'
+brew 'neovim'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'midnight-commander'
