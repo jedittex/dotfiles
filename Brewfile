@@ -64,6 +64,7 @@ cask 'twist'
 cask 'tunnelbear'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'warp'
 cask 'zoom'
 
 # Quicklook
