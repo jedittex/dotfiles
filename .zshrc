@@ -6,6 +6,9 @@ export HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
 # Enable completions
 autoload -Uz compinit && compinit
 
+# 1password completion
+eval "$(op completion zsh)"; compdef _op op
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -115,3 +118,5 @@ zstyle ':vcs_info:*' enable git
 fpath+=$DOTFILES/zshfunctions
 
 source $DOTFILES/aliases
+
+[ -f "/Users/jeditt/.ghcup/env" ] && source "/Users/jeditt/.ghcup/env" # ghcup-envexport PATH="/usr/local/sbin:$PATH"
