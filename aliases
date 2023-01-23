@@ -1,0 +1,15 @@
+alias ls='ls -G'
+alias ll="ls -laG"
+alias s3="s3cmd -c $DOTFILES/.:"
+alias mc='LANG=en_EN.UTF-8 mc'
+alias ytdl='youtube-dl --config-location "$DOTFILES/youtube-dl/config"'
+
+# changes directory to frontmost Finder window
+alias cdf='pwdf; cd "$(pwdf)"'
+
+# Work
+alias dc='docker-compose'
+alias artisan="docker compose exec app php artisan"
+alias wip="git add . && git commit -m 'wip'"
+alias nah="git reset --hard && git clean -df"
+
