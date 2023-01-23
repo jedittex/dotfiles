@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/jeditt/Web/Projects/adrev-cid'
+let g:netrw_dirhist_2='/usr/local/etc/php/7.1/conf.d'
+let g:netrw_dirhist_3='/Users/jeditt/.oh-my-zsh'
+let g:netrw_dirhist_4='/Users/jeditt/.oh-my-zsh/plugins'
+let g:netrw_dirhist_5='/Users/jeditt/.oh-my-zsh'
+let g:netrw_dirhist_6='/Users/jeditt/.oh-my-zsh/themes'
+let g:netrw_dirhist_7='/Users/jeditt/.oh-my-zsh'
