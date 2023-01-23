@@ -1,0 +1,11 @@
+# Manual
+#https://github.com/ytdl-org/youtube-dl/blob/master/README.md
+
+# Save all videos under Movies directory in your home directory
+-o ~/Movies/YouTube/%(title)s.%(ext)s
+
+# Mark videos watched (YouTube only)
+--mark-watched
+
+# Download best mp4 format available or any other best if no mp4 available
+-f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
