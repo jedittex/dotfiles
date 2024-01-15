@@ -43,7 +43,7 @@ cask 'batteries'
 #cask 'deepl'
 cask 'docker'
 cask 'dropbox'
-cask 'evernote'
+#cask 'evernote'
 cask 'figma'
 cask 'flux'
 cask 'google-chrome'
@@ -52,7 +52,7 @@ cask 'google-drive'
 cask 'iina'
 #cask 'insomnia'
 #cask 'iterm2'
-cask 'mattermost'
+#cask 'mattermost'
 cask 'mimestream'
 caks 'miro'
 cask 'notion'
@@ -65,13 +65,14 @@ cask 'send-to-kindle
 cask 'sequel-ace'
 #cask 'skype'
 cask 'spotify'
+cask 'stoplight-studio'
 cask 'textsniper'
 cask 'the-unarchiver'
 #cask 'tinkerwell'
 cask 'transmission'
 cask 'twist'
 caks 'visual-pardigm'
-cask 'tunnelbear'
+# cask 'tunnelbear' # Work only on Rosetta
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'warp'
@@ -87,5 +88,6 @@ cask 'WebPQuickLook'
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Speedtest', id: 1153157709
+mas 'Slack', id: 803453959
 # mas 'Telegram', id: 
 mas 'Things', id: 904280696
