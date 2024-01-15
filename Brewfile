@@ -85,6 +85,7 @@ cask 'quicklook-csv'
 cask 'WebPQuickLook'
 
 # Mac App Store
+mas 'Everlog', id: 1519935634
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'Speedtest', id: 1153157709
