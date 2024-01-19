@@ -1,12 +1,11 @@
 # Taps
-tap 'homebrew/cask'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
-#brew 'alt-tab'
 brew 'awscli'
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'csvkit'
 brew 'git'
 brew 'grep'
 brew 'ffmpeg'
@@ -30,7 +29,6 @@ cask 'aerial'
 cask 'calibre'
 cask 'camunda-modeler'
 cask 'choosy'
-cask 'csvkit'
 cask 'bartender'
 cask 'batteries'
 cask 'docker'
